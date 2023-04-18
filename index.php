@@ -18,10 +18,10 @@
         <div class="content">
             <?php
 
-                include_once("Classes/Carro.php");
-                include_once("Classes/Vendedor.php");
-                include_once("Classes/Cliente.php");
-                include_once("Classes/Funcionario.php");
+                include_once("Models/Carro.php");
+                include_once("Models/Vendedor.php");
+                include_once("Models/Cliente.php");
+                include_once("Models/Funcionario.php");
 
                 $vend1 = new Vendedor("Pedro", "11.111.111-1", "444.444.444-44");
                 $vend1->setMatricula(2020);

@@ -1,7 +1,7 @@
 <html>
     <body>
         <?php
-            include_once 'Classes/Funcionario.php';
+            include_once 'Models/Funcionario.php';
 
             $funcionario = new Funcionario();
             $funcionario->setMatricula(intval($_POST["matricula"]));
